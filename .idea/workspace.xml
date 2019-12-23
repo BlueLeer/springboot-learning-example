@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ffd42f8-f122-4cb4-aa14-fc4851f0ef81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/DynamicDataApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/datasource/DataSourceAspect.aj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/datasource/DataSourceNames.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/datasource/DynamicDataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/datasource/DynamicDataSourceConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/java/com/lee/springboot/dynamic/datasource/annotation/DataSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-1-spring-boot-quickstart/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-1-spring-boot-quickstart/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-2-spring-boot-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-2-spring-boot-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/main/java/demo/springboot/web/HelloBookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/main/java/demo/springboot/web/HelloBookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/test/java/demo/springboot/ConfigApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-2-spring-boot-config/src/test/java/demo/springboot/ConfigApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-3-spring-boot-web/src/main/java/demo/springboot/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-3-spring-boot-web/src/main/java/demo/springboot/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/java/spring/boot/core/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/java/spring/boot/core/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/java/spring/boot/core/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/java/spring/boot/core/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/resources/templates/userForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/resources/templates/userForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/resources/templates/userList.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/src/main/resources/templates/userList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/java/demo/springboot/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/java/demo/springboot/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/resources/templates/bookForm.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/resources/templates/bookForm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/resources/templates/bookList.html" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/src/main/resources/templates/bookList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/domain/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/domain/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/domain/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/domain/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/web/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/java/demo/springboot/web/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/java/spring/boot/core/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/java/spring/boot/core/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/java/spring/boot/core/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/java/spring/boot/core/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/test/java/spring/boot/core/PagingSortingApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/src/test/java/spring/boot/core/PagingSortingApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/java/demo/springboot/WebApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/java/demo/springboot/WebApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/java/demo/springboot/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/test/java/demo/springboot/WebApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/src/test/java/demo/springboot/WebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/qrcode.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-data-elasticsearch-crud/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-data-elasticsearch-crud/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-freemarker/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-freemarker/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/controller/CityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/controller/CityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/domain/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/domain/City.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-freemarker/src/main/java/org/spring/springboot/service/CityService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-freemarker/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-freemarker/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+        <option value="AnnotationType" />
+        <option value="Aspect" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VNC9Af4nwoEL45k5qK2ObIgj4Y" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15364583" />
+    <property name="project.structure.side.proportion" value="0.35204083" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.lee.springboot.dynamic.datasource.annotation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Application">
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-webflux-1-quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.spring.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-2-spring-boot-config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PagingSortingApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-5-spring-boot-paging-sorting" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.boot.core.PagingSortingApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickStartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-1-spring-boot-quickstart" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="demo.springboot.QuickStartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootApplicationTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-lee-test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.test.SpringBootApplicationTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLeeActivemqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-lee-activemq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.springbootleeactivemq.SpringbootLeeActivemqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLeeAmqpApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-lee-amqp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.springbootleeamqp.SpringbootLeeAmqpApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLeeIntegrationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-lee-integration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.springbootleeintegration.SpringbootLeeIntegrationApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootLeeMongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot-lee-mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.lee.springbootleemongodb.SpringbootLeeMongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidatingFormInputApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="chapter-4-spring-boot-validating-form-input" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="spring.boot.core.ValidatingFormInputApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ffd42f8-f122-4cb4-aa14-fc4851f0ef81" name="Default Changelist" comment="" />
+      <created>1577084012057</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577084012057</updated>
+      <workItem from="1577084016779" duration="4977000" />
+      <workItem from="1577089149620" duration="845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="552" y="184" key="#Project_Structure" timestamp="1577085644746">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="552" y="184" key="#Project_Structure/0.0.1920.1050@0.0.1920.1050" timestamp="1577085644746" />
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser" timestamp="1577086098762">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="765" y="241" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1050@0.0.1920.1050" timestamp="1577086098762" />
+    <state x="740" y="280" key="FileChooserDialogImpl" timestamp="1577085233896">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="280" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1577085233896" />
+    <state x="407" y="168" key="SettingsEditor" timestamp="1577089032119">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="407" y="168" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1577089032119" />
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1577089160209">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="640" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1577089160209" />
+    <state x="589" y="266" key="new project wizard" timestamp="1577085243083">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="589" y="266" key="new project wizard/0.0.1920.1050@0.0.1920.1050" timestamp="1577085243083" />
+  </component>
+</project>

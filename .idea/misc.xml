@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lee-activemq/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lee-amqp/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lee-integration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lee-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-lee-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-3-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-4-thymeleaf/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-5-thymeleaf-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-6-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-7-redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-8-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-9-test/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-webflux-10-book-manage-sys/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

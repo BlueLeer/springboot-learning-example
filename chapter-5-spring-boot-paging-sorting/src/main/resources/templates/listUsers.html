@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>所有的用户</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>编号</th>
+        <th>名称</th>
+        <th>年龄</th>
+        <th>出生时间</th>
+    </tr>
+
+    <tr th:each="user:${page.content}">
+        <td th:text="${user.id}"></td>
+        <td th:text="${user.name}"></td>
+        <td th:text="${user.age}"></td>
+        <td th:text="${user.birthday}"></td>
+    </tr>
+</table>
+</body>
+</html>

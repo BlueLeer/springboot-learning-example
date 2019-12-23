@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/chapter-1-spring-boot-quickstart/chapter-1-spring-boot-quickstart.iml" filepath="$PROJECT_DIR$/chapter-1-spring-boot-quickstart/chapter-1-spring-boot-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-2-spring-boot-config/chapter-2-spring-boot-config.iml" filepath="$PROJECT_DIR$/chapter-2-spring-boot-config/chapter-2-spring-boot-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-3-spring-boot-web/chapter-3-spring-boot-web.iml" filepath="$PROJECT_DIR$/chapter-3-spring-boot-web/chapter-3-spring-boot-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/chapter-4-spring-boot-validating-form-input.iml" filepath="$PROJECT_DIR$/chapter-4-spring-boot-validating-form-input/chapter-4-spring-boot-validating-form-input.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/chapter-4-spring-boot-web-thymeleaf.iml" filepath="$PROJECT_DIR$/chapter-4-spring-boot-web-thymeleaf/chapter-4-spring-boot-web-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/chapter-5-spring-boot-data-jpa.iml" filepath="$PROJECT_DIR$/chapter-5-spring-boot-data-jpa/chapter-5-spring-boot-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/chapter-5-spring-boot-paging-sorting.iml" filepath="$PROJECT_DIR$/chapter-5-spring-boot-paging-sorting/chapter-5-spring-boot-paging-sorting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/chapter-6-spring-boot-cache-redis.iml" filepath="$PROJECT_DIR$/chapter-6-spring-boot-cache-redis/chapter-6-spring-boot-cache-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-elasticsearch-crud/spring-data-elasticsearch-crud.iml" filepath="$PROJECT_DIR$/spring-data-elasticsearch-crud/spring-data-elasticsearch-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-elasticsearch-query/spring-data-elasticsearch-query.iml" filepath="$PROJECT_DIR$/spring-data-elasticsearch-query/spring-data-elasticsearch-query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-configuration/springboot-configuration.iml" filepath="$PROJECT_DIR$/springboot-configuration/springboot-configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" filepath="$PROJECT_DIR$/springboot-dubbo-client/springboot-dubbo-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-dubbo-server/springboot-dubbo-server.iml" filepath="$PROJECT_DIR$/springboot-dubbo-server/springboot-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" filepath="$PROJECT_DIR$/springboot-elasticsearch/springboot-elasticsearch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" filepath="$PROJECT_DIR$/springboot-freemarker/springboot-freemarker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" filepath="$PROJECT_DIR$/springboot-helloworld/springboot-helloworld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-learning-example.iml" filepath="$PROJECT_DIR$/springboot-learning-example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-activemq/springboot-lee-activemq.iml" filepath="$PROJECT_DIR$/springboot-lee-activemq/springboot-lee-activemq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-amqp/springboot-lee-amqp.iml" filepath="$PROJECT_DIR$/springboot-lee-amqp/springboot-lee-amqp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-dynamic-datasource/springboot-lee-dynamic-datasource.iml" filepath="$PROJECT_DIR$/springboot-lee-dynamic-datasource/springboot-lee-dynamic-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-integration/springboot-lee-integration.iml" filepath="$PROJECT_DIR$/springboot-lee-integration/springboot-lee-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-mongodb/springboot-lee-mongodb.iml" filepath="$PROJECT_DIR$/springboot-lee-mongodb/springboot-lee-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-lee-test/springboot-lee-test.iml" filepath="$PROJECT_DIR$/springboot-lee-test/springboot-lee-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/springboot-mybatis-annotation/springboot-mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-mutil-datasource/springboot-mybatis-mutil-datasource.iml" filepath="$PROJECT_DIR$/springboot-mybatis-mutil-datasource/springboot-mybatis-mutil-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" filepath="$PROJECT_DIR$/springboot-mybatis-redis/springboot-mybatis-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-mybatis-redis-annotation/springboot-mybatis-redis-annotation.iml" filepath="$PROJECT_DIR$/springboot-mybatis-redis-annotation/springboot-mybatis-redis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-properties/springboot-properties.iml" filepath="$PROJECT_DIR$/springboot-properties/springboot-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-restful/springboot-restful.iml" filepath="$PROJECT_DIR$/springboot-restful/springboot-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-validation-over-json/springboot-validation-over-json.iml" filepath="$PROJECT_DIR$/springboot-validation-over-json/springboot-validation-over-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-1-quickstart/springboot-webflux-1-quickstart.iml" filepath="$PROJECT_DIR$/springboot-webflux-1-quickstart/springboot-webflux-1-quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-10-book-manage-sys/springboot-webflux-10-book-manage-sys.iml" filepath="$PROJECT_DIR$/springboot-webflux-10-book-manage-sys/springboot-webflux-10-book-manage-sys.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-2-restful/springboot-webflux-2-restful.iml" filepath="$PROJECT_DIR$/springboot-webflux-2-restful/springboot-webflux-2-restful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-3-mongodb/springboot-webflux-3-mongodb.iml" filepath="$PROJECT_DIR$/springboot-webflux-3-mongodb/springboot-webflux-3-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-4-thymeleaf/springboot-webflux-4-thymeleaf.iml" filepath="$PROJECT_DIR$/springboot-webflux-4-thymeleaf/springboot-webflux-4-thymeleaf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-5-thymeleaf-mongodb/springboot-webflux-5-thymeleaf-mongodb.iml" filepath="$PROJECT_DIR$/springboot-webflux-5-thymeleaf-mongodb/springboot-webflux-5-thymeleaf-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-6-redis/springboot-webflux-6-redis.iml" filepath="$PROJECT_DIR$/springboot-webflux-6-redis/springboot-webflux-6-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-7-redis-cache/springboot-webflux-7-redis-cache.iml" filepath="$PROJECT_DIR$/springboot-webflux-7-redis-cache/springboot-webflux-7-redis-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-8-websocket/springboot-webflux-8-websocket.iml" filepath="$PROJECT_DIR$/springboot-webflux-8-websocket/springboot-webflux-8-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-webflux-9-test/springboot-webflux-9-test.iml" filepath="$PROJECT_DIR$/springboot-webflux-9-test/springboot-webflux-9-test.iml" />
+    </modules>
+  </component>
+</project>

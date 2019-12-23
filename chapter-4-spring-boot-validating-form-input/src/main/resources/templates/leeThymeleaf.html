@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>THymeleaf第一例</title>
+</head>
+<body>
+
+<h1 th:text="${user.name}">Welcome!</h1>
+
+<form th:action="@{/lee/addUser}" method="post">
+    姓名:<input name="name" th:value="${user.name}" th:field="*{user.name}">
+    <label th:if="${#fields.hasErrors('user.name')}">姓名有误!</label>
+    <br>
+    年龄:<input name="age" th:value="${user.age}" th:field="*{user.age}">
+    <label th:if="${#fields.hasErrors('user.age')}">年龄有误!</label>
+    <br>
+    出生日期:<input name="birthday" th:value="${user.birthday}" th:field="*{user.birthday}">
+    <label th:if="${#fields.hasErrors('user.birthday')}">出生日期有误!</label>
+    <br>
+    <input type="submit" value="提交">
+</form>
+</body>
+</html>

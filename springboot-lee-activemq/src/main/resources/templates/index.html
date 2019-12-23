@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>消息</title>
+</head>
+<body>
+<button onclick="sendMessage()">发送消息</button>
+
+<script>
+    // 使用js原生发送http请求
+    function sendMessage() {
+        var request = new XMLHttpRequest();
+        request.open("GET", "/send");
+        request.onreadystatechange = function (ev) {
+            if (request.readyState == 4) {
+                alert(request.responseText)
+
+            }
+        };
+
+        request.send(null);
+    }
+</script>
+</body>
+</html>
