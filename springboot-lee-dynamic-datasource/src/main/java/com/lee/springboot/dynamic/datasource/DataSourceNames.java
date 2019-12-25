@@ -4,11 +4,8 @@ package com.lee.springboot.dynamic.datasource;
  * @author lee
  * @date 2019/12/23 15:26
  */
-public enum DataSourceNames {
-    FIRST("first"), SECOND("second");
-    private String name;
-
-    DataSourceNames(String name) {
-        this.name = name;
-    }
+public interface DataSourceNames {
+    String FIRST = "first";
+    String SECOND = "second";
+    
 }

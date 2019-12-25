@@ -5,17 +5,18 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.3.RELEASE</version>
+        <version>2.2.2.RELEASE</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>demo.springboot</groupId>
-    <artifactId>spring-boot-dynamic-datasource</artifactId>
+    <artifactId>spring-boot-lee-dynamic-datasource</artifactId>
 
     <properties>
         <mysql.version>5.1.38</mysql.version>
         <druid.version>1.1.10</druid.version>
         <mybatisplus.spring.boot.version>1.0.5</mybatisplus.spring.boot.version>
+        <mybatisplus.version>2.2.0</mybatisplus.version>
     </properties>
 
     <dependencies>
@@ -34,6 +35,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql.version}</version>
@@ -48,6 +54,11 @@
             <groupId>com.baomidou</groupId>
             <artifactId>mybatisplus-spring-boot-starter</artifactId>
             <version>${mybatisplus.spring.boot.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>${mybatisplus.version}</version>
         </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>

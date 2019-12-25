@@ -3,7 +3,6 @@ package com.lee.springboot.dynamic.datasource;
 import com.lee.springboot.dynamic.datasource.annotation.DataSource;
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.aspectj.lang.Signature;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Pointcut;
@@ -16,8 +15,8 @@ import java.lang.reflect.Method;
  * @author lee
  * @date 2019/12/23 15:59
  */
-@Aspect
 @Component
+@Aspect
 @Slf4j
 public class DataSourceAspect {
     /**
@@ -37,17 +36,19 @@ public class DataSourceAspect {
         DataSource ds = method.getAnnotation(DataSource.class);
 
         if (ds == null) {
-            DynamicDataSource.setDataSource(DataSourceNames.FIRST.name());
-            log.info("set datasource is " + DataSourceNames.FIRST.name());
+            String name = DataSourceNames.FIRST;
+            DynamicDataSource.setDataSource(name);
+            log.info("set datasource is " + name);
         } else {
-            DynamicDataSource.setDataSource(ds.name());
-            log.info("set datasource is " + ds.name());
+            String name = ds.name();
+            DynamicDataSource.setDataSource(name);
+            log.info("set datasource is " + name);
         }
 
         try {
             return joinPoint.proceed();
         } finally {
-            DynamicDataSource.clearDataSource();
+//            DynamicDataSource.clearDataSource();
             log.info("clear datasource");
         }
     }
