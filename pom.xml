@@ -81,6 +81,7 @@
         <module>chapter-5-spring-boot-paging-sorting</module>
         <!--springboot的动态数据源,同样适用于spring mvc的传统开发模式-->
         <module>springboot-lee-dynamic-datasource</module>
+        <module>springboot-lee-async</module>
 
     </modules>
 
