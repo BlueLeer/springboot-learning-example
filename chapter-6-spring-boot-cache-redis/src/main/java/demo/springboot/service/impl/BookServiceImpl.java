@@ -54,7 +54,7 @@ public class BookServiceImpl implements BookService {
      * @return
      * @CacheEvict: 表明Spring应该在缓存中清除一个或多个条目
      */
-    @CacheEvict(key = "#p0")
+    @CacheEvict(key = "#id")
     @Override
     public Book delete(Long id) {
         System.out.println(" call delete method ");

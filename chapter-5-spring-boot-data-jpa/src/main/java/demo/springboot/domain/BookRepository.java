@@ -25,9 +25,9 @@ public interface BookRepository extends CustomRepository<Book, Long>, JpaSpecifi
     @Query("update Book b set b.name = ?2 where b.id = ?1")
     int setName(Long id, String name);
 
-    // 分页查询
-    @Override
-    Page<Book> findAll(Pageable pageable);
+//    // 分页查询
+//    @Override
+//    Page<Book> findAll(Pageable pageable);
 
     // 使用排序
 
