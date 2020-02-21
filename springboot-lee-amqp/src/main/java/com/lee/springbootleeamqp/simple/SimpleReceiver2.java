@@ -1,4 +1,4 @@
-package com.lee.springbootleeamqp;
+package com.lee.springbootleeamqp.simple;
 
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Component;
@@ -9,14 +9,14 @@ import org.springframework.stereotype.Component;
  * @description
  */
 @Component
-public class Receiver {
+public class SimpleReceiver2 {
 
     /**
      * 使用 @RabbitListener 来监听RabbitMQ的目的地发送的消息,通过queues属性指定要监听的目的地
      */
-    @RabbitListener(queues = "my-queue")
-    public void receiveMessage() {
-        System.out.println("lee----------收到消息123" + System.currentTimeMillis());
+    @RabbitListener(queues = "simple-queue")
+    public void receiveMessage(String msg) {
+        System.out.println("lee-receiver2----------收到消息{" + msg + "}" + System.currentTimeMillis());
     }
 }
 
